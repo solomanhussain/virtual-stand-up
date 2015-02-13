@@ -12,6 +12,7 @@ var routes = require('./routes/index');
 var mongoose = require('mongoose');
 
 //Connect to MongoDB ...
+//Have fun with my creds.
 mongoose.connect('mongodb://demoUser:demoUser1234@ds053718.mongolab.com:53718/standupmeetingnotes');
 
 var app = express();
